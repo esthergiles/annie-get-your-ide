@@ -583,17 +583,17 @@ progress {
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: 70%;
 }
 .blockquote > :last-child {
   margin-bottom: 0;
 }
 
 .blockquote-footer {
-  margin-top: -1rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: black;
 }
 .blockquote-footer::before {
   content: "— ";
