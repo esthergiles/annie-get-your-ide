@@ -1,0 +1,5 @@
+Color Pallete Codes
+
+Logo: 
+ Yellow #FCCE5D
+ Blue #307E70

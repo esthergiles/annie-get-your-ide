@@ -19,17 +19,24 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+
+
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm" id="mainNav">
             <div class="container px-5">
                 <!-- TO DO Add Logo -->
-                <a class="navbar-brand fw-bold" href="#page-top">Annie Get Your IDE LOGO Pending</a>
+                <a class="navbar-brand fw-bold" href="#">
+                    <img src="assets/img/annie_logo_long.png" alt="Annie Logo" >
+                  </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="bi-list"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
 
-                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <ul class="navbar-nav ms-auto my-3 my-lg-0">
+                        <li class="nav-item bi bi-youtube"><a class="nav-link me-lg-3" href="#features"></a></li>
+                        <li class="nav-item bi bi-github"><a class="nav-link me-lg-3" href="https://github.com/esthergiles/annie-get-your-ide" target="_blank"></a></li>
+                    </div>
                         <!-- To add new links at top nav bar, add them to the unordered list here -->
                         <!-- <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li> -->
@@ -41,59 +48,32 @@
                             <span class="small"> </span>
                         </span>
                     </button> -->
+                    <!-- GITHUB Logo and Link -->
 
-
-                    <a href="https://github.com/esthergiles" class="text-decoration-none">
-                        Check Out the Code!
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-        </svg>
-                      </a>
-                </div>
             </div>
         </nav>
-        <!-- Mashead header-->
+        <!-- Masthead header-->
         <header class="masthead">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <h1 class="display-1 lh-1 mb-3">A Accenture report found that...</h1>
-                            <p class="lead fw-normal text-muted mb-5">In 1984, 37% of computer science majors in the U.S. were women. Today only 18% are. Why?</p>
+                            <h2 class="display-2 lh-1 mb-3">Did you know?</h2>
+                            <p class="lead fw-normal text-muted mb-5">In 1984, 37% of computer science majors in the U.S. were women. Today only 18% are. Support our girls.
+                            </p>
                             <!-- TODO Change button onclick command to send them to the report-->
                                 <button type="button" class="btn btn-primary">
+                                    <a href="https://www.accenture.com/_acnmedia/PDF-150/Accenture-Cracking-The-Gender-Code-Report.pdf" target="_blank">
                                     <span class="d-flex align-items-center">
-                                    <span class="small"> Read the Report </span>
+                                    <span class="small"> Read the Report </span></a>
                                 </span>
                                     </button>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <!-- Masthead device mockup feature-->
-                        <div class="masthead-device-mockup">
-                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
-                                        <stop class="gradient-start-color" offset="0%"></stop>
-                                        <stop class="gradient-end-color" offset="100%"></stop>
-                                    </linearGradient>
-                                </defs>
-                                <circle cx="50" cy="50" r="50"></circle></svg
-                            ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
-                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
-                            ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
-                            <div class="device-wrapper">
-                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                                    <div class="screen bg-black">
-                                        <!-- TODO Add video of girl -->
-                                        <!-- PUT CONTENTS HERE:-->
-                                        <!-- * * This can be a video, image, or just about anything else.-->
-                                        <!-- * * Set the max width of your media to 100% and the height to-->
-                                        <!-- * * 100% like the demo example below.-->
-                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video>
-                                    </div>
+                                <video muted="muted" autoplay="" loop="" style="max-width: 70%; height: 70%"><source src="assets/img/supportgirls.mp4 " type="video/mp4" /></video>
+
                                 </div>
                             </div>
                         </div>
@@ -106,99 +86,27 @@
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
-                        <div class="h2 fs-1 text-white mb-4">Powerful Folks Doing Powerful Things for Women In STEM</div>
-                        <img src="assets/img/girlswhocode.png" alt="..." style="height: 3rem" />
-                        <img src="assets/img/acm.svg" alt="..." style="height: 3rem" />
+                        <div class="h2 fs-1 text-white mb-4">Powerful Folks Doing Powerful Things for Women In Computing</div>
+                        <a href="https://girlswhocode.com/" target="_blank"><img src="assets/img/girlswhocode.png" alt="Girls Who Code"/></a>
+                        <a href="https://women.acm.org/" target="_blank"><img src="assets/img/acm.svg" alt="ACMW" /></a>
+                        <a href="https://gender-gap-in-science.org/" target="_blank"><img src="https://gendergapinscience.files.wordpress.com/2017/06/cropped-gendergaplogo11.png" alt="gender gap in science logo" /></a>
 
                     </div>
                 </div>
             </div>
         </aside>
-        <!-- App features section-->
-        <section id="features">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
-                        <div class="container-fluid px-5">
-                            <div class="row gx-5">
-                                <div class="col-md-6 mb-5">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi-phone icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Resources</h3>
-                                        <p class="text-muted mb-0">Gotta add a resource hereand change out logos</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-5">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi-camera icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Resources</h3>
-                                        <p class="text-muted mb-0">Gotta add a resource hereand change out logos</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 mb-5 mb-md-0">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Resources</h3>
-                                        <p class="text-muted mb-0">Gotta add a resource hereand change out logos</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Resources</h3>
-                                        <p class="text-muted mb-0">Gotta add a resource here and change out logos</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 order-lg-0">
-                        <!-- Features section device mockup-->
-                        <div class="features-device-mockup">
-                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
-                                        <stop class="gradient-start-color" offset="0%"></stop>
-                                        <stop class="gradient-end-color" offset="100%"></stop>
-                                    </linearGradient>
-                                </defs>
-                                <circle cx="50" cy="50" r="50"></circle></svg
-                            ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
-                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
-                            ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
-                            <div class="device-wrapper">
-                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                                    <div class="screen bg-black">
-                                        <!-- PUT CONTENTS HERE:-->
-                                        <!-- * * This can be a video, image, or just about anything else.-->
-                                        <!-- * * Set the max width of your media to 100% and the height to-->
-                                        <!-- * * 100% like the demo example below.-->
-                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Basic features section-->
+   
+        <!-- Embedded Youtube Playlist Section-->
         <section class="bg-light">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-12 col-lg-5">
-                        <h2 class="display-4 lh-1 mb-4">These women literally changed the world. Do you know them?</h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">All throughout history, women have been changing the world through science and techynology. Believe it or not, you may not know their names. Watchiu this video to learn about some of the most extraordinary remale constributions to science and technology.</p>
+                        <h2 class="display-4 lh-1 mb-4">Computer's are for boys...right?</h2>
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0"> What was going on in 1984 that made so many women give up on computer science? 
+                            Check out this hot take from <a href="https://www.npr.org/sections/money/2016/07/22/487069271/episode-576-when-women-stopped-coding" target="_blank">NPR's Episode 576: When Women Stopped Coding</a>.</p>
                     </div>
                     <div class="col-sm-8 col-md-6">
-                        <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="https://source.unsplash.com/u8Jn2rzYIps/900x900" alt="..." /></div>
+                        <div class="px-5 px-sm-0"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLMrNR7EPRuv7aUy6jtpVaNy8kN8i3DwF5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     </div>
                 </div>
             </div>
@@ -216,6 +124,81 @@
                 </div>
             </div>
         </section> -->
+             <!-- App features section-->
+             <section id="features">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+                            <div class="container-fluid px-5">
+                                <div class="row gx-5">
+                                    <div class="col-md-6 mb-5">
+                                        <!-- Feature item-->
+                                        <div class="text-center">
+                                            <i class="bi-phone icon-feature text-gradient d-block mb-3"></i>
+                                            <h3 class="font-alt">Resources</h3>
+                                            <p class="text-muted mb-0">Gotta add a resource hereand change out logos</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-5">
+                                        <!-- Feature item-->
+                                        <div class="text-center">
+                                            <i class="bi-camera icon-feature text-gradient d-block mb-3"></i>
+                                            <h3 class="font-alt">Resources</h3>
+                                            <p class="text-muted mb-0">Gotta add a resource hereand change out logos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-5 mb-md-0">
+                                        <!-- Feature item-->
+                                        <div class="text-center">
+                                            <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
+                                            <h3 class="font-alt">Resources</h3>
+                                            <p class="text-muted mb-0">Gotta add a resource hereand change out logos</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <!-- Feature item-->
+                                        <div class="text-center">
+                                            <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
+                                            <h3 class="font-alt">Resources</h3>
+                                            <p class="text-muted mb-0">Gotta add a resource here and change out logos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 order-lg-0">
+                            <!-- Features section device mockup-->
+                            <div class="features-device-mockup">
+                                <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                            <stop class="gradient-start-color" offset="0%"></stop>
+                                            <stop class="gradient-end-color" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <circle cx="50" cy="50" r="50"></circle></svg
+                                ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+                                    <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
+                                ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
+                                <div class="device-wrapper">
+                                    <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                        <div class="screen bg-black">
+                                            <!-- PUT CONTENTS HERE:-->
+                                            <!-- * * This can be a video, image, or just about anything else.-->
+                                            <!-- * * Set the max width of your media to 100% and the height to-->
+                                            <!-- * * 100% like the demo example below.-->
+                                            <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         <!-- App badge section-->
         <section class="bg-gradient-primary-to-secondary" id="download">
             <div class="container px-5">
