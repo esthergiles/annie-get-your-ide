@@ -7840,6 +7840,11 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
+.bg-img {
+
+  background-image: url("../assets/img/background_color_science.png") !important;
+
+}
 
 .bg-dark {
   --bs-bg-opacity: 1;
@@ -11408,9 +11413,9 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
-  background-image: url("https://source.unsplash.com/5g41N3uRPf8/1500x800");
+  background-image: url("../assets/img/background_color_science.png");
   background-position: center;
-  background-size: cover;
+  background-size: cover <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
 }
 section.cta .cta-content {
   position: relative;
